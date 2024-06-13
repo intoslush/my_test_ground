@@ -9,7 +9,7 @@ def main():
     print("Creating 'pyt' environment from 'base' and installing d2l and jittor...")
     command = """
     conda create -y -n pyt --clone base && \
-    conda run -n pyt pip install d2l jittor
+    conda run -n pyt pip install d2l jittor psutil GPUtil ipywidgets IPython
     """
     stdout, stderr = execute_command(command)
     print(stdout)
