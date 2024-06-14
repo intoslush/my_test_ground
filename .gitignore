@@ -2,4 +2,5 @@
 img/
 
 # Ignore the data directory
-data/
+data/TestSetA
+data/TrainSet
