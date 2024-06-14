@@ -9,3 +9,9 @@ wget https://cloud.tsinghua.edu.cn/f/418b311c5ae8484f8208/?dl=1 -O classname.txt
 wget https://cloud.tsinghua.edu.cn/f/7c44b138a6344f4b8fd1/?dl=1 -O TrainSet.zip
 
 wget https://cloud.tsinghua.edu.cn/f/c00ca0f3f27340899a05/?dl=1 -O TestSetA
+## 下载官方给的bassline的训练参数
+wget https://github.com/uyzhang/JCLIP/releases/download/%E6%9D%83%E9%87%8D/ViT-B-32.pkl -O ViT-B-32.pkl
+
+## 运行demo时出现bug修改了如下参数
+export JT_SYNC=1
+export trace_py_var=3
