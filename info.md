@@ -13,5 +13,11 @@ wget https://cloud.tsinghua.edu.cn/f/c00ca0f3f27340899a05/?dl=1 -O TestSetA
 wget https://github.com/uyzhang/JCLIP/releases/download/%E6%9D%83%E9%87%8D/ViT-B-32.pkl -O ViT-B-32.pkl
 
 ## 运行demo时出现bug修改了如下参数
+好像是显存用完了
 export JT_SYNC=1
 export trace_py_var=3
+## 克隆base 环境
+conda create --name pyt --clone base
+## 配置git名字和邮箱
+git config --global user.name "ZA"
+git config --global user.email "intoslush@gmail.com"
