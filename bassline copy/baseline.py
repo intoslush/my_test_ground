@@ -13,7 +13,7 @@ parser.add_argument('--split', type=str, default='A')
 args = parser.parse_args()
 
 model, preprocess = clip.load("ViT-B-32.pkl")
-classes = open('Dataset/classes.txt').read().splitlines()
+classes = open('../data/classname.txt').read().splitlines()
 
 # remove the prefix Animal, Thu-dog, Caltech-101, Food-101
 
@@ -37,7 +37,7 @@ text_features /= text_features.norm(dim=-1, keepdim=True)
 
 split = 'TestSet' + args.split
 
-imgs_dir = 'Dataset/' + split
+imgs_dir = '../data/' + split
 imgs = os.listdir(imgs_dir)
 
 save_file = open('result.txt', 'w')
