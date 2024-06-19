@@ -1,5 +1,5 @@
 __pycache__/
-*.py[cod]
+
 *$py.class
 *.egg-info
 .pytest_cache
@@ -10,5 +10,4 @@ thumbs.db
 .idea
 .cache
 Dataset
-result.txt
 *.pkl

@@ -4,3 +4,5 @@ img/
 # Ignore the data directory
 data/TestSetA
 data/TrainSet
+data/ViT-B-32.pkl
+baseline_copy/ViT-B-32.pkl
