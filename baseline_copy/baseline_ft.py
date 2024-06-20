@@ -74,7 +74,7 @@ train_labels = jt.cat(new_train_labels).numpy()
 # training
 classifier = LogisticRegression(random_state=0,
                                 C=8.960,
-                                max_iter=1000,
+                                max_iter=30000,
                                 verbose=1)
 classifier.fit(train_features, train_labels)
 
