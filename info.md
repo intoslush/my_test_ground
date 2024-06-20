@@ -1,15 +1,3 @@
-## TODO
-1. 构造本地的测试集
-    - 从每个类别随机抽取四张图片
-    - 从剩下的图片里面抽3000张图片构成测试集,
-    - 构建三个测试集
-    - 用训练出的模型对测试集进行准确度测试,计算均值
-    
-2. 更长的文本编码
-    - 下载并使用openai的提示词格式,编写更长的提示词
-
-3. 尝试更多的模型
-4. 尝试自己改写训练模型
 
 ## 换源
 pip config set global.index-url http://mirrors.cloud.tencent.com/pypi/simple
@@ -34,3 +22,5 @@ conda create --name pyt --clone base
 ## 配置git名字和邮箱
 git config --global user.name "ZA"
 git config --global user.email "intoslush@gmail.com"
+## 克隆地址
+https://github.com/intoslush/my_test_ground.git
