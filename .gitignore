@@ -6,3 +6,6 @@ data/TestSetA
 data/TrainSet
 data/ViT-B-32.pkl
 baseline_copy/ViT-B-32.pkl
+runs/
+__pycache__/
+model_checkpoints/
