@@ -9,3 +9,6 @@ baseline_copy/ViT-B-32.pkl
 runs/
 __pycache__/
 model_checkpoints/
+data/result.txt
+data/result.zip
+model_checkpoint/
